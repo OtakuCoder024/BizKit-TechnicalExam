@@ -46,6 +46,7 @@
       const select = document.getElementById("equipment");
       select.innerHTML = "";
       equipmentList.forEach(item => {
+        if (item.status !== "available") return;
         const opt = document.createElement("option");
         opt.value = item.id;
         opt.textContent = `${item.name} (PHP ${item.daily_rate}/day)`;

@@ -68,5 +68,25 @@
     "to_date": "2026-01-03",
     "total": 4500.0,
     "status": "confirmed"
+  },
+  {
+    "id": 8,
+    "equipment_id": 1,
+    "equipment_name": "Canon DSLR Camera",
+    "customer": "asda",
+    "from_date": "2026-01-29",
+    "to_date": "2026-01-29",
+    "total": 1500.0,
+    "status": "confirmed"
+  },
+  {
+    "id": 9,
+    "equipment_id": 1,
+    "equipment_name": "Canon DSLR Camera",
+    "customer": "asda",
+    "from_date": "2026-01-31",
+    "to_date": "2026-02-03",
+    "total": 6000.0,
+    "status": "confirmed"
   }
 ]
